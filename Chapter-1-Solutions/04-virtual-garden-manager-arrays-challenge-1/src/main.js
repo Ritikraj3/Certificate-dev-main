@@ -13,7 +13,7 @@ console.log(`Number of plants: ${garden.length}`)
 
 //3.
 const lastPlant = garden.pop()
-const firstPlant = garden.unshift()
+const firstPlant = garden.shift()
 
 console.log(`Harvested: ${lastPlant} and ${firstPlant}`)
 
